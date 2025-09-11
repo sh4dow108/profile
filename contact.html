@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f3dede;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea {
+            width: 100%;
+
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Contact Me</h2>
+    <form action="mailto:krishna@gmail.com">
+        Name:<br>
+        <input type="text" name="name" required>
+        <br>
+        Email:<br>
+        <input type="email" name="email" required>
+        <br>
+        Message:<br>
+        <textarea name="message" rows="4" cols="30" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="contact-options" align="center">
+        
+        <p>or try</p>
+        <div>
+            <img src="images\facebook.png" alt="Facebook" style="width:40px;height:40px;">
+            <img src="images\linkedin.png" alt="LinkedIn" style="width:40px;height:40px;">
+            <img src="images\gmail.png" alt="Gmail" style="width:40px;height:40px;">
+
+
+        </div>
+    </div>
+</body>
+
+</html>
